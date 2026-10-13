@@ -1,0 +1,18 @@
+# Files created by make
+*.o
+*.a
+*.so
+*.dSYM/
+tests/myasan_tests
+tests/myasan_test.log
+
+# Sanitizers / coverage
+*.gcda
+*.gcno
+*.gcov
+coverage/
+
+# Editors and OS
+.DS_Store
+.vscode/
+.idea/
